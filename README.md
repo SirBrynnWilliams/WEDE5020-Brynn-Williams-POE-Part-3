@@ -50,8 +50,11 @@ The Contact Us and Enquiry forms validate their fields in the browser and send s
 
 - **Part 1 deployment:** [Jahs Adoption Centre](https://wede5020brynnwilliamspart1.netlify.app)
 - **Part 2 deployment:** [Jahs Adoption Centre](https://brynnwilliamswede5020part2.netlify.app)
+- **Part 2 GitHub repository:** [WEDE5020 Part 2](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-Part-2)
 - **Part 3 GitHub repository:** [Jahs Adoption Centre](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-POE-Part-3)
 - **Part 3 Netlify deployment:** To be added after deployment.
+
+Part 3 continues the website developed for Part 2. The two parts are stored in separate GitHub repositories, so each repository has its own commit history.
 
 ## Part 3 verification
 

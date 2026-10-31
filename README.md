@@ -54,10 +54,10 @@ To check form delivery, submit a non-sensitive test through each page. Confirm t
 
 - **Part 1 GitHub repository:** [Jahs Adoption Centre](https://github.com/TheBrynnWilliams/WEDE5020-Brynn-Williams-Part-1-)
 - **Part 1 Netlify deployment:** The previously listed URL currently returns 404.
-- **Part 2 deployment:** [Jahs Adoption Centre](https://brynnwilliamswede5020part2.netlify.app)
+- **Part 2 Netlify deployment:** [Jahs Adoption Centre](https://brynnwilliamswede5020part2.netlify.app)
 - **Part 2 GitHub repository:** [Jahs Adoption Centre](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-Part-2)
 - **Part 3 GitHub repository:** [Jahs Adoption Centre](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-POE-Part-3)
-- **Part 3 Netlify deployment:** To be added after deployment.
+- **Part 3 Netlify deployment:** [Jahs Adoption Centre](https://jars-adoption-centre-part3.netlify.app) (currently redirects visitors to Netlify sign-in; set project visibility to Public before sharing)
 
 Part 3 continues the website developed for Part 2. The two parts are stored in separate GitHub repositories, so each repository has its own commit history.
 

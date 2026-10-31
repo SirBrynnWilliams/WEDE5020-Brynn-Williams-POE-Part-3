@@ -24,7 +24,7 @@ The dates below are based on my recollection. Where I could not remember a speci
 - **2026-10-24:** Improved accessibility and responsive behavior for interactive controls and forms.
 - **2026-10-26:** Continued responsive layout and content refinements across the website.
 - **2026-10-30:** Reworked Home, Services, and Enquiry heading hierarchy; arranged About Us images beside related text; added service-provider verification guidance; updated README and Changelog; and ran a final browser review across all five pages.
-- **2026-10-31:** Connected separate EmailJS templates to the Contact Us and Enquiry forms. Matched the template variables to each form's field names, corrected the Contact Us name and surname variable capitalization, and submitted test messages through both forms. Each form displayed its sent confirmation.
+- **2026-10-31:** Connected separate EmailJS templates to the Contact Us and Enquiry forms. Matched the template variables to each form's field names, corrected the Contact Us name and surname variable capitalization, and submitted test messages through both forms. Each form displayed its sent confirmation. Added the Part 2 repository link and form-delivery testing steps to the README.
 
 ### Planned final work
 

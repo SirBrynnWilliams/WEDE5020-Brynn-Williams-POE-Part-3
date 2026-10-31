@@ -26,10 +26,10 @@ The dates below are based on my recollection. Where I could not remember a speci
 - **2026-10-30:** Reworked Home, Services, and Enquiry heading hierarchy; arranged About Us images beside related text; added service-provider verification guidance; updated README and Changelog; and ran a final browser review across all five pages.
 - **2026-10-31:** Connected separate EmailJS templates to the Contact Us and Enquiry forms. Matched the template variables to each form's field names, corrected the Contact Us name and surname variable capitalization, and submitted test messages through both forms. Each form displayed its sent confirmation. Added the Part 2 repository link and form-delivery testing steps to the README.
 
-### Planned final work
+### Submission
 
-- **2026-11-01:** Repeat final website checks, update the Part 3 deployment link after publishing, and complete submission preparation.
-- **2026-11-02:** Part 3 submission due date.
+- **2026-10-31:** Submitted the completed Part 3 project on Saturday, ahead of the 2 November deadline.
+- **2026-11-02:** Official Part 3 submission deadline.
 
 ## Part 2 feedback review
 

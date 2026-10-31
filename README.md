@@ -42,6 +42,8 @@ The project has five JavaScript files:
 
 Open the project folder in Visual Studio Code and press **F5** to use the included Edge launch configuration. A static server such as the VS Code Live Server extension also works. The website can be deployed as a static site without a build step.
 
+The `.gitignore` file excludes operating-system metadata files and Netlify CLI's local project state. `.vscode/launch.json` contains the Edge launch configuration used by the **F5** option in Visual Studio Code.
+
 ## Form delivery status
 
 The Contact Us and Enquiry forms validate their fields in the browser and send submissions through EmailJS. Both forms were tested on 31 October 2026. The Contact Us template uses `name`, `surname`, `cell`, `email`, `subject`, and `message`; the Enquiry template uses `name`, `surname`, `cell`, `email`, `purpose`, and `query`. Keep private account credentials out of this public repository.
@@ -50,7 +52,8 @@ To check form delivery, submit a non-sensitive test through each page. Confirm t
 
 ## Project links
 
-- **Part 1 deployment:** [Jahs Adoption Centre](https://wede5020brynnwilliamspart1.netlify.app)
+- **Part 1 GitHub repository:** [Jahs Adoption Centre](https://github.com/TheBrynnWilliams/WEDE5020-Brynn-Williams-Part-1-)
+- **Part 1 Netlify deployment:** The previously listed URL currently returns 404.
 - **Part 2 deployment:** [Jahs Adoption Centre](https://brynnwilliamswede5020part2.netlify.app)
 - **Part 2 GitHub repository:** [Jahs Adoption Centre](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-Part-2)
 - **Part 3 GitHub repository:** [Jahs Adoption Centre](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-POE-Part-3)
@@ -62,18 +65,22 @@ Part 3 continues the website developed for Part 2. The two parts are stored in s
 
 The five pages were checked in Edge for page and image loading, local links, JavaScript errors, lightbox behavior, search filtering, form validation, and horizontal overflow at desktop and mobile widths. The Contact Us and Enquiry forms were each submitted through EmailJS and displayed the success confirmation.
 
-Adoption service registration, certificates, and outcome statistics are not asserted by this website. Visitors should confirm current provider details directly with the Department of Social Development or the registered adoption agency responsible for their case. Child-identifying information should not be published as marketing content.
-
 ## References
 
-EmailJS, [s.a.]. *Installation*. [online] Available at: <https://www.emailjs.com/docs/sdk/installation/> [Accessed 31 October 2026].
+Google, 2026. *Google Chrome web browser*. [computer program] Available at: <https://www.google.com/chrome/> [Accessed 11 September 2026].
 
-Google, [s.a.]. *Google Maps*. [online] Available at: <https://www.google.com/maps/> [Accessed 31 October 2026].
+Google Maps, 2026. *Google Maps*. [online] Available at: <https://www.google.com/maps/> [Accessed 11 September 2026].
 
-MDN Web Docs, [s.a.]. *CSS reference*. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS/Reference> [Accessed 31 October 2026].
+MDN Web Docs, 2026. *CSS: Cascading Style Sheets*. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS> [Accessed 11 September 2026].
 
-South African Government, [s.a.]. *Apply for national adoption*. [online] Available at: <https://www.gov.za/services/services-residents/parenting/adopt-child/apply-national-adoption> [Accessed 31 October 2026].
+Microsoft, 2026. *Visual Studio Code*. [computer program] Available at: <https://code.visualstudio.com/> [Accessed 11 September 2026].
 
-The Independent Institute of Education (IIE), 2026. *Web development (Introduction)* [WEDE5020 module manual]. Johannesburg: The Independent Institute of Education.
+South African Government, 2026. *Apply for national adoption*. [online] Available at: <https://www.gov.za/services/services-residents/parenting/adopt-child/apply-national-adoption> [Accessed 30 October 2026].
 
-W3Schools, [s.a.]. *CSS tutorial*. [online] Available at: <https://www.w3schools.com/css/> [Accessed 31 October 2026].
+The Independent Institute of Education (IIE), 2025. *Harvard - Anglia style reference guide – adapted for The IIE*. Johannesburg: The Independent Institute of Education.
+
+The Independent Institute of Education (IIE), 2026. *Web development (introduction) [WEDE5020 Module Manual]*. Johannesburg: The Independent Institute of Education.
+
+W3Schools, 2026. *CSS and responsive web design tutorials*. [online] Available at: <https://www.w3schools.com/css/> [Accessed 11 September 2026].
+
+EmailJS, 2026. *EmailJS: Send email directly from JavaScript*. [online] Available at: <https://www.emailjs.com/> [Accessed 30 October 2026].

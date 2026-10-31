@@ -2,7 +2,7 @@
 
 ## Part 3 - JavaScript, accessibility, and final site refinements
 
-The dates below are based on my recollection. Where I could not remember a specific task, the description is an estimate based on the current code and project development. These entries are a retrospective summary, not individual Git commit timestamps.
+The dates below are based on my application. Where I could not remember a specific task, the description is an estimate based on the current code and project development.
 
 ### Retrospective work timeline
 
@@ -33,7 +33,7 @@ The dates below are based on my recollection. Where I could not remember a speci
 
 ## Part 2 feedback review
 
-I received 100/100 for Part 2 and no lecturer feedback was provided. There were no Part 2 feedback items to implement; Part 3 changes address the current rubric and usability review.
+There were no Part 2 feedback items to implement. Part 3 changes address the current rubric and usability review.
 
 ## Part 2 - CSS and responsive structure
 

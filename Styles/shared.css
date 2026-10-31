@@ -1,0 +1,328 @@
+﻿/* shared.css - global styles for all pages */
+
+:root {
+    --primary-bg: #F5EEDC; /* warm beige backdrop */
+    --header-bg: #8A9A5B; /* sage green header */
+    --dark-sage: #5B683C; /* dark sage green navigation and footer */
+    --gold-accent: #D4AF37; /* gold accent colour */
+    --card-surface: #ffffff; /* white card containers */
+    --text-color: #263238; /* charcoal body text */
+    --warm-accent: #B86F57;
+    --soft-sage: #E7EBD9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    background: linear-gradient(180deg, #eaf3f2 0%, #f5eedc 64%, #e8eadb 100%);
+    color: var(--text-color);
+    padding: 20px;
+    margin: 0;
+    isolation: isolate;
+}
+
+.garden-decoration {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    max-width: none;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center bottom;
+    opacity: 0.43;
+    pointer-events: none;
+}
+
+h1 {
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    color: #ffffff;
+    margin-bottom: 0.4em;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: clamp(1.65rem, 2.5vw, 2rem);
+    color: var(--dark-sage);
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid var(--gold-accent);
+    padding-bottom: 6px;
+}
+
+h3 {
+    font-size: 1.35rem;
+    color: var(--dark-sage);
+    margin-bottom: 0.4em;
+}
+
+h4,
+h5 {
+    color: var(--gold-accent);
+    margin-bottom: 0.3em;
+}
+
+p {
+    margin-bottom: 1em;
+    color: var(--text-color);
+}
+
+a {
+    color: var(--dark-sage);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--gold-accent);
+}
+
+main,
+.main-content,
+.container,
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header,
+.site-header {
+    background-color: var(--header-bg);
+    padding: 18px 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #77815C;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-text {
+    flex: 1;
+    text-align: center;
+}
+
+.header-text h1 {
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.header-text p {
+    color: #F5EEDC;
+    margin: 0;
+    font-size: 1.08rem;
+    max-width: 760px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.header-logo img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    padding: 6px;
+}
+
+.page-search {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    align-items: center;
+    gap: 4px 18px;
+    max-width: 1440px;
+    margin: -8px auto 25px;
+    padding: 14px 20px;
+    border: 1px solid rgba(91, 104, 60, 0.2);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 5px 18px rgba(53, 68, 46, 0.06);
+}
+
+.page-search label {
+    color: var(--dark-sage);
+    font-weight: 700;
+}
+
+.page-search .form-input {
+    min-width: 0;
+    margin: 0;
+    background: #fff;
+}
+
+.page-search [role="status"] {
+    grid-column: 2;
+    min-height: 1.3em;
+    margin: 0;
+    color: #526342;
+    font-size: 0.9rem;
+}
+
+.content-section[hidden],
+.left-col[hidden],
+.right-col[hidden],
+.contact-container[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    .page-search {
+        grid-template-columns: 1fr;
+        gap: 6px;
+        padding: 14px;
+    }
+
+    .page-search [role="status"] {
+        grid-column: 1;
+    }
+}
+
+/* Navigation styling */
+nav,
+.site-nav {
+    background-color: var(--dark-sage);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+nav a,
+.site-nav a,
+.nav-link {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover,
+.site-nav a:hover,
+.nav-link:hover,
+nav a.current-page,
+.site-nav a.current-page,
+.nav-link.current-page,
+nav a[aria-current="page"] {
+    color: var(--dark-sage) !important;
+    background-color: var(--gold-accent) !important;
+    transform: translateY(-2px);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+section img:not(.service-image):not(.about-story-image):not(#lightboxImage) {
+    width: min(100%, 650px);
+    height: auto;
+}
+
+.gallery-thumb {
+    transition: transform 180ms ease, box-shadow 180ms ease;
+    cursor: zoom-in;
+}
+
+.gallery-thumb:hover,
+.gallery-thumb:focus-visible {
+    transform: scale(1.025);
+    box-shadow: 0 12px 28px rgba(38, 50, 56, 0.22);
+}
+
+/* Footer styling */
+footer,
+.site-footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 35px;
+    background-color: var(--dark-sage);
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+}
+
+footer p,
+.site-footer p {
+    color: #F5EEDC;
+    margin: 0;
+}
+.service-card[hidden] {
+    display: none !important;
+}
+
+.lightbox-open {
+    overflow: hidden;
+}
+
+.lightbox-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.88);
+}
+
+.lightbox-modal[hidden] {
+    display: none;
+}
+
+.lightbox-modal img {
+    max-width: min(90vw, 1100px);
+    max-height: 85vh;
+    object-fit: contain;
+}
+
+#lightboxClose {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    border: 0;
+    color: #fff;
+    background: transparent;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.form-status.success {
+    color: #176b37;
+    font-weight: 600;
+}
+
+.form-input.error,
+.form-textarea.error,
+.form-select.error {
+    outline: 2px solid #b42318;
+    outline-offset: 1px;
+}

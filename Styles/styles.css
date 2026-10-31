@@ -1,0 +1,541 @@
+﻿/* styles.css - page-specific layout and ICE task styling */
+
+/* Section cards */
+section,
+.content-section {
+    background-color: #ffffff;
+    padding: clamp(20px, 2.4vw, 32px);
+    border-radius: 16px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(91, 104, 60, 0.16);
+    box-shadow: 0 10px 30px rgba(53, 68, 46, 0.08);
+}
+
+/* Image sizing */
+.home-hero img,
+.about-hero-image,
+.history-image,
+section img,
+.content-section img {
+    max-width: 650px;
+    margin: 15px auto;
+    border-radius: 6px;
+}
+
+.eyebrow {
+    margin-bottom: 0.45rem;
+    color: var(--warm-accent);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    line-height: 1.35;
+    text-transform: uppercase;
+}
+
+.about-story {
+    display: grid;
+    grid-template-columns: minmax(240px, 0.9fr) minmax(0, 1.1fr);
+    align-items: center;
+    gap: clamp(24px, 4vw, 52px);
+}
+
+.about-story > img {
+    width: 100%;
+    max-width: none;
+    height: 310px;
+    margin: 0;
+    object-fit: cover;
+}
+
+.about-copy p:last-child {
+    margin-bottom: 0;
+}
+
+/* Form styles */
+form,
+.enquiry-form,
+.contact-form {
+    margin-top: 15px;
+}
+
+fieldset,
+.form-group {
+    border: 2px solid #8A9A5B;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+legend,
+.form-legend {
+    font-weight: bold;
+    color: #5B683C;
+    padding: 0 10px;
+}
+
+label,
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5B683C;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea,
+.input-field,
+.form-input,
+.form-textarea {
+    background-color: #FAFAFA;
+    border: 1.5px solid #8A9A5B;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    color: #263238;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: #D4AF37;
+    box-shadow: 0 0 6px rgba(212, 175, 55, 0.4);
+}
+
+button[type="submit"],
+input[type="submit"],
+input[type="reset"],
+.btn,
+.submit-btn,
+.reset-btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #8A9A5B;
+    color: #ffffff;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover,
+.submit-btn:hover {
+    background-color: #D4AF37;
+    color: #5B683C;
+    transform: translateY(-2px);
+}
+
+.reset-btn {
+    background-color: #F5EEDC;
+    color: #263238;
+}
+
+.reset-btn:hover {
+    background-color: #e5dcbf;
+}
+
+/* ICE task 3: services 4-card grid */
+.services-section {
+    border: none;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.service-card,
+.services-card {
+    background-color: #ffffff;
+    border: 1px solid #d8e2ec;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover,
+.services-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(91, 104, 60, 0.25);
+}
+
+.service-image {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.service-content,
+.services-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.journey-section,
+.help-guide,
+.transparency-section {
+    background: rgba(255, 255, 255, 0.94);
+}
+
+.journey-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin: 24px 0;
+    list-style: none;
+    counter-reset: journey-step;
+}
+
+.journey-list li {
+    position: relative;
+    min-height: 150px;
+    padding: 24px 24px 18px 76px;
+    border: 1px solid #d9dfc9;
+    border-radius: 14px;
+    background: linear-gradient(145deg, #fbfaf5, #f0f3e9);
+    counter-increment: journey-step;
+}
+
+.journey-list li::before {
+    content: counter(journey-step);
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    display: grid;
+    width: 38px;
+    height: 38px;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--dark-sage);
+    color: white;
+    font-weight: 700;
+}
+
+.journey-list li:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+}
+
+.journey-list h3,
+.help-card h3 {
+    margin-bottom: 8px;
+}
+
+.journey-list p,
+.help-card p {
+    margin-bottom: 0;
+}
+
+.journey-source {
+    padding: 14px 18px;
+    border-left: 4px solid var(--warm-accent);
+    background: #fbf5ed;
+}
+
+.faq-list {
+    display: grid;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.faq-list details {
+    padding: 16px 20px;
+    border: 1px solid #d9dfc9;
+    border-radius: 12px;
+    background: #f8f9f4;
+}
+
+.faq-list summary {
+    color: var(--dark-sage);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.faq-list details p {
+    margin: 12px 0 0;
+}
+
+.cta-section {
+    text-align: center;
+    background: linear-gradient(135deg, #f0f3e9, #fffaf0);
+    border: 2px solid rgba(212, 175, 55, 0.65);
+}
+
+.cta-section .btn {
+    display: inline-block;
+    margin: 4px 0 0;
+    text-decoration: none;
+}
+
+.help-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 22px;
+}
+
+.help-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 22px;
+    border-radius: 14px;
+    background: #f0f3e9;
+    border: 1px solid #d9dfc9;
+}
+
+.help-card .btn {
+    display: inline-block;
+    margin-top: auto;
+    text-decoration: none;
+}
+
+.transparency-section p:last-child {
+    margin-bottom: 0;
+}
+
+/* ICE task 4: contact 2-column main section */
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.left-col,
+.right-col,
+.contact-info-col,
+.contact-form-col {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #d8e2ec;
+}
+
+.left-col a,
+.contact-info-col a {
+    color: #5B683C !important;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+
+.left-col a:hover,
+.contact-info-col a:hover {
+    color: #D4AF37 !important;
+}
+
+/* ICE task 4: 4-column footer layout */
+.footer-grid,
+.footer-four-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color: #5B683C;
+    padding: 30px 25px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.footer-col h3,
+.footer-col h4 {
+    color: #D4AF37;
+    margin-bottom: 12px;
+}
+
+.footer-col p {
+    color: #F5EEDC;
+    font-size: 0.9rem;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col a,
+.footer-grid a {
+    color: #F5EEDC !important;
+    text-decoration: none !important;
+    font-size: 0.9rem;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-col a:hover,
+.footer-grid a:hover {
+    color: #D4AF37 !important;
+    text-shadow: 0 0 6px rgba(212, 175, 55, 0.6);
+    text-decoration: underline !important;
+}
+
+.social-links {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.social-links a {
+    background-color: #8A9A5B;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.social-links a:hover {
+    background-color: #D4AF37;
+    color: #5B683C !important;
+    text-shadow: none !important;
+}
+
+.field-feedback {
+    display: block;
+    margin: -10px 0 14px;
+    color: #a12822;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.field-feedback[hidden] {
+    display: none;
+}
+
+.form-status {
+    margin-top: 12px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background: #f9e8e3;
+    color: #8d2f29;
+    font-weight: 600;
+}
+
+.form-status:empty {
+    display: none;
+}
+
+.form-status.success {
+    background: var(--soft-sage);
+    color: #315a39;
+}
+
+.form-input.error,
+.form-textarea.error,
+.form-select.error {
+    border-color: #a12822;
+    outline: 3px solid rgba(161, 40, 34, 0.14);
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid var(--warm-accent);
+    outline-offset: 3px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #5B683C;
+}
+
+/* Responsive media queries */
+@media screen and (max-width: 960px) {
+    .help-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid,
+    .footer-four-columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .about-story {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .about-story > img {
+        height: clamp(220px, 58vw, 340px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .header-inner {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav a,
+    .site-nav a,
+    .nav-link {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .services-grid,
+    .journey-list,
+    .help-cards,
+    .footer-grid,
+    .footer-four-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .service-image {
+        height: 230px;
+    }
+
+    .journey-list li:last-child:nth-child(odd) {
+        grid-column: auto;
+    }
+
+    .home-hero img,
+    .about-hero-image,
+    .history-image,
+    section img,
+    .content-section img {
+        max-width: 100%;
+    }
+}

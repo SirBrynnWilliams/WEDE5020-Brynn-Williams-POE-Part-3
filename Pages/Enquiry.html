@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="data:,">
+
+<!--Connecting HTML to CSS-->
+<link rel="stylesheet" href="../Styles/styles.css">
+<link rel="stylesheet" href="../Styles/shared.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ask Jahs Adoption Centre about adoption, volunteering, sponsorship, legal requirements, and support for families in Gqeberha.">
+<title>Enquiry - Jahs Adoption Centre</title>
+</head>
+<body class="enquiry-page">
+<img class="garden-decoration" src="../Images/garden-scene.svg" alt="" aria-hidden="true">
+
+<!--Navigation Menu-->
+<nav class="site-nav">
+<div class="nav-container">
+<a href="../Index.html" class="nav-link">Home</a>
+<a href="About Us.html" class="nav-link">About Us</a>
+<a href="Services.html" class="nav-link">Services</a>
+<a href="Enquiry.html" class="nav-link current-page">Enquiry</a>
+<a href="Contact Us.html" class="nav-link">Contact Us</a>
+</div>
+</nav>
+
+<!--Header-->
+<header class="site-header">
+<div class="header-inner">
+<div class="header-text">
+<h1>Enquiry About Our Services</h1>
+<p>Ask us about adoption support, volunteering, or ways to help children thrive.</p>
+</div>
+<div class="header-logo">
+<img class="gallery-thumb" src="../Images/Jah-cropped.png" width="170" height="170" alt="Jahs Adoption Centre logo">
+</div>
+</div>
+</header>
+
+<div class="page-search" role="search">
+    <label for="siteSearch">Search this page</label>
+    <input id="siteSearch" type="search" class="form-input" placeholder="Search page content">
+    <p id="siteSearchStatus" role="status" aria-live="polite"></p>
+</div>
+
+<!--Main content area-->
+<main class="main-content container">
+
+<section id="Common-questions" class="content-section questions-section">
+<h2>Common Questions</h2>
+<p>If you are wondering who founded Jahs Adoption Centre, our organization was established in 2018 in Gqeberha to support children in the Nelson Mandela Bay region.</p>
+<p>Many people ask what year the first child was adopted or how long a child adoption takes. While every journey is unique, our team provides full support throughout the legal timeline.</p>
+<p>Regarding the cost to adopt a child and the legal requirements, we ensure all processes meet South African legal standards for child safety and protection.</p>
+</section>
+
+<section id="child-centred-faq" class="content-section faq-section" aria-labelledby="child-faq-heading">
+<h2>Children’s Wellbeing Comes First</h2>
+<h3 id="child-faq-heading">Adoption: A Child-Centred FAQ</h3>
+<p>Each child’s needs and circumstances are different. The responsible adoption agency can explain how the process applies to a specific situation.</p>
+<div class="faq-list">
+    <details>
+        <summary>How does the process protect a child’s wellbeing?</summary>
+        <p>Assessment, preparation, and matching are intended to consider the child’s safety and needs. Ask the adoption agency how these steps work and who you can contact with concerns.</p>
+    </details>
+    <details>
+        <summary>How are children matched with prospective parents?</summary>
+        <p>Matching depends on the individual child and the information gathered through the formal process. It is not a catalogue or a first-come, first-served choice; the agency explains the steps and decisions.</p>
+    </details>
+    <details>
+        <summary>Can I see children’s names or photographs before a match?</summary>
+        <p>Children’s privacy and dignity must be protected. This website does not publish identifiable child profiles. Ask the responsible agency how it shares information safely during a formal matching process.</p>
+    </details>
+    <details>
+        <summary>What support is available after placement?</summary>
+        <p>Support depends on the agency and each family’s circumstances. Ask about counselling, follow-up, and who to contact if a child or family needs additional help.</p>
+    </details>
+</div>
+<p class="journey-source">For a general overview of the South African process, read the <a href="https://www.gov.za/services/services-residents/parenting/adopt-child/apply-national-adoption" target="_blank" rel="noopener noreferrer">South African Government adoption guidance</a> and confirm current details with an adoption agency.</p>
+</section>
+
+<section id="who-can-help" class="content-section help-guide" aria-labelledby="help-heading">
+<p class="eyebrow">Find your next step</p>
+<h2 id="help-heading">Who Can Help Me?</h2>
+<div class="help-cards">
+    <article class="help-card"><h3>I’m considering adoption</h3><p>Read the adoption journey, then contact an adoption agency to confirm its role and explain the formal process.</p><a class="btn" href="Services.html#adoption-journey">View the adoption journey</a></article>
+    <article class="help-card"><h3>I’d like to volunteer</h3><p>Tell us what kind of support you’re interested in. The centre can explain current opportunities and any preparation needed.</p><a class="btn" href="Services.html">Explore volunteering</a></article>
+    <article class="help-card"><h3>I have another question</h3><p>Choose the closest enquiry topic and include a safe way for the team to contact you.</p><a class="btn" href="#Enquiry-form">Go to the enquiry form</a></article>
+</div>
+</section>
+
+<section id="Enquiry-form" class="content-section form-section">
+<h2>Start Your Journey</h2>
+<p>Please fill out the form below to enquire about adoption, volunteering, or sponsorship opportunities.</p>
+
+<form action="#" method="post" class="enquiry-form">
+
+<!--Grouping Personal Details-->
+<fieldset class="form-group">
+<legend class="form-legend">Personal Information</legend>
+<label for="name" class="form-label">First Name:</label><br>
+<input type="text" id="name" name="name" class="form-input" required><br>
+
+<label for="surname" class="form-label">Surname:</label><br>
+<input type="text" id="surname" name="surname" class="form-input" required><br>
+
+<label for="cell" class="form-label">Cell Phone Number:</label><br>
+<input type="tel" id="cell" name="cell" class="form-input" required><br>
+
+<label for="email" class="form-label">Email Address:</label><br>
+<input type="email" id="email" name="email" class="form-input" required>
+
+<!--Inquiry Dropdown Field-->
+
+<div class="form-group">
+    <label for="form-purpose" class="form-label">Purpose Of Inquiry:</label>
+
+    <select id="form-purpose" name="purpose" class="form-select" required>
+        <option value="" disabled selected>-- Please choose an option --</option>
+        <option value="Process_Breakdown">Adoption Process Breakdown</option>
+        <option value="Legal_Standards">Legal Standards and requirements</option>
+        <option value="Counselling_Sessions">Counselling And Guidance Sessions</option>
+        <option value="Volunteering">Adoption Centre Volunteering</option>
+        <option value="Sponsorship">Sponsorship</option>
+        <option value="other">Other</option>
+    </select>
+</div>
+
+</fieldset>
+
+<!--Query box-->
+<fieldset class="form-group">
+<legend class="form-legend">Your Message</legend>
+<label for="query" class="form-label">How can we help you today?</label><br>
+<textarea id="query" name="query" class="form-textarea" rows="6" cols="40" placeholder="Type your questions here..." required></textarea>
+</fieldset>
+
+<!--Action buttons-->
+<br>
+<input type="submit" value="Send Request" class="btn submit-btn">
+<input type="reset" value="Clear Form" class="btn reset-btn">
+
+</form>
+</section>
+
+</main>
+
+<!--Footer - ICE TASK 4 (4 Columns)-->
+<footer class="site-footer">
+<div class="footer-grid">
+
+<!--Column 1: Company Name & Short Description-->
+<div class="footer-col">
+<h3>Jahs Adoption Centre</h3>
+<p>Founded in 2018 in Gqeberha, Jahs Adoption Centre is a non-profit organisation dedicated to providing safe housing and finding loving forever homes for vulnerable children.</p>
+</div>
+
+<!--Column 2: Our Services Links-->
+<div class="footer-col">
+<h3>Our Services</h3>
+<ul>
+<li><a href="Services.html">Adoption Process Breakdown</a></li>
+<li><a href="Services.html">Legal Standards & Requirements</a></li>
+<li><a href="Services.html">Counselling & Guidance Sessions</a></li>
+<li><a href="Services.html">Adoption Centre Volunteering</a></li>
+</ul>
+</div>
+
+<!--Column 3: Quick Links / Sitemap-->
+<div class="footer-col">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="../Index.html">Home</a></li>
+<li><a href="About Us.html">About Us</a></li>
+<li><a href="Services.html">Services</a></li>
+<li><a href="Enquiry.html">Enquiry</a></li>
+<li><a href="Contact Us.html">Contact Us</a></li>
+</ul>
+</div>
+
+<!--Column 4: Talk To Us & Social Media Links-->
+<div class="footer-col">
+<h3>Talk To Us</h3>
+<p>Tel: <a href="tel:0812346764">081 234 6764</a></p>
+<p>Email: <a href="mailto:Siphokazi98@gmail.com">Siphokazi98@gmail.com</a></p>
+<p>Location: Walmer, Gqeberha</p>
+
+<h4>Follow Us</h4>
+<div class="social-links">
+<a href="https://www.facebook.com" target="_blank">Facebook</a>
+<a href="https://www.instagram.com" target="_blank">Instagram</a>
+<a href="https://www.x.com" target="_blank">X</a>
+<a href="https://www.youtube.com" target="_blank">YouTube</a>
+</div>
+</div>
+
+</div>
+
+<p class="copyright">&copy; <span class="current-year"></span> Jahs Adoption Centre. Founded in 2018, Gqeberha, Eastern Cape. All Rights Reserved.</p>
+</footer>
+
+
+<!-- Connecting JavaScript for Part 3 -->
+ <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js"></script>
+ <script src="../Javascript/main.js" defer></script>
+ <script src="../Javascript/validation.js" defer></script>
+ <script src="../Javascript/email.js" defer></script>
+ <script src="../Javascript/search.js" defer></script>
+ <script src="../Javascript/lightbox.js" defer></script>
+
+</body>
+</html>

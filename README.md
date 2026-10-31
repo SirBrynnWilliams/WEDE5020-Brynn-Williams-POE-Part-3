@@ -46,6 +46,8 @@ Open the project folder in Visual Studio Code and press **F5** to use the includ
 
 The Contact Us and Enquiry forms validate their fields in the browser and send submissions through EmailJS. Both forms were tested on 31 October 2026. The Contact Us template uses `name`, `surname`, `cell`, `email`, `subject`, and `message`; the Enquiry template uses `name`, `surname`, `cell`, `email`, `purpose`, and `query`. Keep private account credentials out of this public repository.
 
+To check form delivery, submit a non-sensitive test through each page. Confirm the site displays its sent message, then check the receiving inbox (including spam) and make sure the submitted details appear in the email.
+
 ## Project links
 
 - **Part 1 deployment:** [Jahs Adoption Centre](https://wede5020brynnwilliamspart1.netlify.app)

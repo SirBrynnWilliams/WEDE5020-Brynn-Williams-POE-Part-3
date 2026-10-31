@@ -26,7 +26,7 @@ The dates below are based on my application. Where I could not remember a specif
 - **2026-10-30:** Reworked Home, Services, and Enquiry heading hierarchy; arranged About Us images beside related text; added service-provider verification guidance; updated README and Changelog; and ran a final browser review across all five pages.
 - **2026-10-31:** Connected separate EmailJS templates to the Contact Us and Enquiry forms. Matched the template variables to each form's field names, corrected the Contact Us name and surname variable capitalization, and submitted test messages through both forms. Each form displayed its sent confirmation. Added the Part 2 repository link and form-delivery testing steps to the README.
 - **2026-10-31:** Created the Part 3 Netlify site, deployed the website, renamed the project to match the GitHub repository, and verified the public site responds successfully.
-- **2026-10-31:** Restored the Part 1 Netlify deployment from the Part 1 GitHub repository and added a root redirect to its Home page. The new deployment requires public visitor access to be enabled in Netlify settings.
+- **2026-10-31:** Restored the Part 1 Netlify deployment from the Part 1 GitHub repository, added a root redirect to its Home page, and verified the public site pages and stylesheet load.
 
 ### Submission
 

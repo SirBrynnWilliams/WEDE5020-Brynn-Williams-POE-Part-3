@@ -53,7 +53,7 @@ To check form delivery, submit a non-sensitive test through each page. Confirm t
 ## Project links
 
 - **Part 1 GitHub repository:** [Jahs Adoption Centre](https://github.com/TheBrynnWilliams/WEDE5020-Brynn-Williams-Part-1-)
-- **Part 1 Netlify deployment:** [Jahs Adoption Centre](https://wede5020-brynn-williams-part-1.netlify.app) (set project visibility to Public in [Netlify visitor access settings](https://app.netlify.com/projects/wede5020-brynn-williams-part-1/configuration/general#visitor-access) before sharing)
+- **Part 1 Netlify deployment:** [Jahs Adoption Centre](https://wede5020-brynn-williams-part-1.netlify.app)
 - **Part 2 Netlify deployment:** [Jahs Adoption Centre](https://brynnwilliamswede5020part2.netlify.app)
 - **Part 2 GitHub repository:** [Jahs Adoption Centre](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-Part-2)
 - **Part 3 GitHub repository:** [Jahs Adoption Centre](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-POE-Part-3)

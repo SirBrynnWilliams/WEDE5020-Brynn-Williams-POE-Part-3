@@ -52,7 +52,7 @@ To check form delivery, submit a non-sensitive test through each page. Confirm t
 
 - **Part 1 deployment:** [Jahs Adoption Centre](https://wede5020brynnwilliamspart1.netlify.app)
 - **Part 2 deployment:** [Jahs Adoption Centre](https://brynnwilliamswede5020part2.netlify.app)
-- **Part 2 GitHub repository:** [WEDE5020 Part 2](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-Part-2)
+- **Part 2 GitHub repository:** [Jahs Adoption Centre](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-Part-2)
 - **Part 3 GitHub repository:** [Jahs Adoption Centre](https://github.com/SirBrynnWilliams/WEDE5020-Brynn-Williams-POE-Part-3)
 - **Part 3 Netlify deployment:** To be added after deployment.
 
@@ -66,18 +66,14 @@ Adoption service registration, certificates, and outcome statistics are not asse
 
 ## References
 
-Google, n.d. *Google Chrome web browser* [computer program]. Available at: <https://www.google.com/chrome/> (Accessed: 11 September 2026).
+EmailJS, [s.a.]. *Installation*. [online] Available at: <https://www.emailjs.com/docs/sdk/installation/> [Accessed 31 October 2026].
 
-Google Maps, n.d. *Google Maps* [online]. Available at: <https://www.google.com/maps/> (Accessed: 11 September 2026).
+Google, [s.a.]. *Google Maps*. [online] Available at: <https://www.google.com/maps/> [Accessed 31 October 2026].
 
-MDN Web Docs, n.d. *CSS: Cascading Style Sheets* [online]. Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS> (Accessed: 11 September 2026).
+MDN Web Docs, [s.a.]. *CSS reference*. [online] Available at: <https://developer.mozilla.org/en-US/docs/Web/CSS/Reference> [Accessed 31 October 2026].
 
-Microsoft, n.d. *Visual Studio Code* [computer program]. Available at: <https://code.visualstudio.com/> (Accessed: 11 September 2026).
-
-South African Government, n.d. *Apply for national adoption* [online]. Available at: <https://www.gov.za/services/services-residents/parenting/adopt-child/apply-national-adoption> (Accessed: 30 October 2026).
-
-The Independent Institute of Education (IIE), 2025. *Harvard-Anglia referencing guide adapted for The IIE*. Johannesburg: The Independent Institute of Education.
+South African Government, [s.a.]. *Apply for national adoption*. [online] Available at: <https://www.gov.za/services/services-residents/parenting/adopt-child/apply-national-adoption> [Accessed 31 October 2026].
 
 The Independent Institute of Education (IIE), 2026. *Web development (Introduction)* [WEDE5020 module manual]. Johannesburg: The Independent Institute of Education.
 
-W3Schools, n.d. *CSS and responsive web design tutorials* [online]. Available at: <https://www.w3schools.com/css/> (Accessed: 11 September 2026).
+W3Schools, [s.a.]. *CSS tutorial*. [online] Available at: <https://www.w3schools.com/css/> [Accessed 31 October 2026].
